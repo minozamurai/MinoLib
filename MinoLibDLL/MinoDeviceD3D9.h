@@ -11,6 +11,7 @@ namespace Mino {
 		MinoDeviceD3D9();
 		virtual ~MinoDeviceD3D9();
 		virtual bool init(HWND hWnd) = 0;
+
 	};
 
 }
