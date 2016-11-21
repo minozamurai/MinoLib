@@ -30,7 +30,10 @@ namespace Mino {
 
 			}
 
-			LoadLibrary(szLibName);
+			if ( LoadLibrary(szLibName) ) {
+
+
+			}
 
 		}
 

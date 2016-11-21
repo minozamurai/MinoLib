@@ -7,6 +7,8 @@ namespace Mino {
 
 	public:
 		virtual bool init(HWND hWnd) = 0;
+		virtual void terminate() = 0;
+		virtual void reset() = 0;
 	};
 
 }
